@@ -1,3 +1,4 @@
-import hello_world.views
-import Flask
-app = Flask(__name__)
+from flask import Flask
+app = Flask(_name_)
+
+import hello_world.views # noqa
